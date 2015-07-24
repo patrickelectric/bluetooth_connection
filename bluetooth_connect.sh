@@ -10,5 +10,6 @@ fi
 
 echo "connecting.."
 sudo rfcomm connect 0 $1 1
+sudo rfcomm release 0
 
 
